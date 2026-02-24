@@ -207,7 +207,7 @@ export default function App() {
                   transition={{ delay: 0.6 }}
                   className="text-base text-rose-500 font-medium animate-pulse"
                 >
-                  Click it to open the long message 😁
+                  Click the envelope to open 😁
                 </motion.p>
               </div>
             </motion.div>
