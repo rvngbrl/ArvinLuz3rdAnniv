@@ -50,38 +50,37 @@ I love you so much, my luz clarita.
 Happy 3rd anniversary to us, love. 🤍`;
 
 const BACKGROUND_IMAGES = [
-  'src/images/12.JPG',
-  'src/images/20.jpg',
-    'src/images/16.JPG',
-  'src/images/6.JPG',
- 'src/images/10.JPG',
+  '/images/12.JPG',
+  '/images/20.jpg',
+  '/images/16.JPG',
+  '/images/6.JPG',
+  '/images/10.JPG',
 ];
 
 const PHOTO_URLS = [
-  'src/images/1.JPG',
-  'src/images/2.JPG',
-  'src/images/3.JPG',
-  'src/images/4.JPG',
-  'src/images/5.png',
-  'src/images/6.JPG',
-   'src/images/7.JPG',
-    'src/images/8.JPG',
-   'src/images/9.JPG',
-    'src/images/10.JPG',
- 'src/images/11.JPG',
-  'src/images/12.JPG',
-  'src/images/13.JPG',
-  'src/images/14.JPG',
-  'src/images/15.jpg',
-  'src/images/16.JPG',
-   'src/images/17.jpeg',
-    'src/images/18.JPG',
-   'src/images/19.JPG',
-    'src/images/20.jpg',
-     'src/images/21.JPG',
-       'src/images/22.JPG',
-        'src/images/23.jpg',
- 
+  '/images/1.JPG',
+  '/images/2.JPG',
+  '/images/3.JPG',
+  '/images/4.JPG',
+  '/images/5.png',
+  '/images/6.JPG',
+  '/images/7.JPG',
+  '/images/8.JPG',
+  '/images/9.JPG',
+  '/images/10.JPG',
+  '/images/11.JPG',
+  '/images/12.JPG',
+  '/images/13.JPG',
+  '/images/14.JPG',
+  '/images/15.jpg',
+  '/images/16.JPG',
+  '/images/17.jpeg',
+  '/images/18.JPG',
+  '/images/19.JPG',
+  '/images/20.jpg',
+  '/images/21.JPG',
+  '/images/22.JPG',
+  '/images/23.jpg',
 ];
 
 const COLLAGE_IMAGES = PHOTO_URLS.map((url, i) => ({
@@ -116,8 +115,8 @@ export default function App() {
       {/* Background Music */}
       {isOpen && (
         <audio autoPlay loop>
-          <source src="src/images/Ben&Ben - Araw-Araw (Lyrics).mp3" type="audio/mpeg" />
-          {/* To use your own uploaded song, replace the URL above with: "/src/anniversary-song.mp3" */}
+          <source src="/images/Ben&Ben - Araw-Araw (Lyrics).mp3" type="audio/mpeg" />
+          {/* To use your own uploaded song, replace the URL above with: "/images/anniversary-song.mp3" */}
         </audio>
       )}
 
