@@ -200,7 +200,7 @@ export default function App() {
                   transition={{ delay: 0.4 }}
                   className="text-lg text-[#5A5A40]/80"
                 >
-                  This is what happens when a developer falls in love.
+                  This is what happens when Arvin falls in love.
                 </motion.p>
                 <motion.p 
                   initial={{ opacity: 0, y: 10 }}
