@@ -20,7 +20,7 @@ Thank you for supporting my goals, my work, my dreams — even my random ideas i
 
 I want you to know this, and I mean this deeply:
 
-I don’t just love you because you make me happy.
+I don’t just love you becausthis is we you make me happy.
 I love you because you make me grow.
 
 You challenge me to be better. You help me become more patient, more understanding, more mature. Because of you, I learned how to communicate better. I learned how to stay calm. I learned that love is not just kilig and sweet messages — it’s commitment, consistency, and choosing each other every single day.
@@ -50,43 +50,43 @@ I love you so much, my luz clarita.
 Happy 3rd anniversary to us, love. 🤍`;
 
 const BACKGROUND_IMAGES = [
-  'src/images/12.jpg',
-  'src/images/20.heic',
-    'src/images/16.jpeg',
-  'src/images/6.heic',
- 'src/images/10.jpg',
+  'src/images/12.JPG',
+  'src/images/20.jpg',
+    'src/images/16.JPG',
+  'src/images/6.JPG',
+ 'src/images/10.JPG',
 ];
 
 const PHOTO_URLS = [
-  'src/images/1.jpg',
-  'src/images/2.jpg',
-  'src/images/3.jpg',
-  'src/images/4.jpg',
+  'src/images/1.JPG',
+  'src/images/2.JPG',
+  'src/images/3.JPG',
+  'src/images/4.JPG',
   'src/images/5.png',
-  'src/images/6.jpg',
-   'src/images/7.jpg',
-    'src/images/8.jpg',
-   'src/images/9.jpg',
-    'src/images/10.jpg',
- 'src/images/11.jpg',
-  'src/images/12.jpg',
-  'src/images/13.jpg',
-  'src/images/14.jpg',
+  'src/images/6.JPG',
+   'src/images/7.JPG',
+    'src/images/8.JPG',
+   'src/images/9.JPG',
+    'src/images/10.JPG',
+ 'src/images/11.JPG',
+  'src/images/12.JPG',
+  'src/images/13.JPG',
+  'src/images/14.JPG',
   'src/images/15.jpg',
-  'src/images/16.jpg',
+  'src/images/16.JPG',
    'src/images/17.jpeg',
-    'src/images/18.jpg',
-   'src/images/19.jpg',
+    'src/images/18.JPG',
+   'src/images/19.JPG',
     'src/images/20.jpg',
-     'src/images/21.jpg',
-       'src/images/22.jpg',
+     'src/images/21.JPG',
+       'src/images/22.JPG',
         'src/images/23.jpg',
  
 ];
 
 const COLLAGE_IMAGES = PHOTO_URLS.map((url, i) => ({
   url,
-  rotation: ((i * 7) % 22) - 7.5, // Deterministic rotation based on index
+  rotation: ((i * 7) % 23) - 7.5, // Deterministic rotation based on index
   size: 180 + ((i * 13) % 70), // Deterministic size based on index
   shape: i % 3 === 0 ? 'rounded-2xl' : i % 3 === 1 ? 'rounded-full aspect-square' : 'rounded-sm',
 }));
