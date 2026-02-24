@@ -62,7 +62,7 @@ const PHOTO_URLS = [
   '/images/2.JPG',
   '/images/3.JPG',
   '/images/4.JPG',
-  '/images/5.png',
+  '/images/5.PNG',
   '/images/6.JPG',
   '/images/7.JPG',
   '/images/8.JPG',
